@@ -1,22 +1,14 @@
 {
   "name": "ts-playground",
-  "version": "1.0.0",
-  "description": "Ejercicios para practicar TypeScript",
-  "main": "index.ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "run": "ts-node",
-    "test": "jest"
+    "test": "vitest"
   },
-  "author": "Biko2",
-  "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^29.5.12",
-    "@types/node": "^20.12.7",
-    "ts-jest": "^29.1.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "jest": "^29.7.0"
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^1.6.0"
   }
 }

@@ -1,6 +1,6 @@
 type Persona = {
   name: string;
-  animal: AnimalDomestico;
+  animal?: AnimalDomestico;
 };
 
 type AnimalDomestico = {
@@ -15,14 +15,16 @@ const persona: Persona = {
   },
 };
 
-// Modifica el código bajo esta línea
+//--------- ⬇️ Modifica el código de abajo ⬇️ ------------//
 
-const getAnimalName = (animal?: Animal) => animal.name;
+const getAnimalName = (animal?: AnimalDomestico): string => animal.name;
 
-// Modifica el código sobre esta línea
+//--------- ⬆️ Modifica el código de arriba ⬆️ -----------//
 
-console.log(
-  `${persona.name} tiene un ${persona.animal.type} que se llama ${getAnimalName(
-    persona.animal
-  )}`
-);
+it("should return expected result", () => {
+  expect(
+    `${persona.name} tiene un ${
+      persona.animal.type
+    } que se llama ${getAnimalName(persona.animal)}`
+  ).toEqual("Alicia tiene un Perro que se llama Txakur");
+});

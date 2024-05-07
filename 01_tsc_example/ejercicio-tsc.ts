@@ -1,5 +1,10 @@
-const myFunction = (arg1: string, arg2: string) => {
-  console.log(arg1.concat(arg2));
+const firstPart: string = "Hola";
+const secondPart: string = "Mundo";
+
+const concatena = (arg1: string, arg2: string) => {
+  const result = arg1 + " " + arg2;
+
+  console.log(result);
 };
 
-myFunction("ho", "la");
+concatena(firstPart, secondPart);

@@ -8,15 +8,15 @@ type Nombre = "";
 
 function getName(personaje: Personaje): Nombre {
   if (personaje === "Bueno") {
-    return "";
+    return "Rubio";
   }
 
   if (personaje === "Malo") {
-    return "";
+    return "Sentencia";
   }
 
   if (personaje === "Feo") {
-    return "";
+    return "Tuco";
   }
 }
 
