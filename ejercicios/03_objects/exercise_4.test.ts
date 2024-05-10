@@ -1,3 +1,5 @@
+import { expect, it } from "vitest";
+
 type Persona = {
   name: string;
   animal?: AnimalDomestico;

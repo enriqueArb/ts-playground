@@ -1,3 +1,5 @@
+import { expect, it } from "vitest";
+
 type Pelicula = {
   titulo: string;
   autor: string;

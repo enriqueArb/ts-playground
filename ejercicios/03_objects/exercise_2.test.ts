@@ -1,3 +1,5 @@
+import { expect, it } from "vitest";
+
 /* 
     TIPOS QUE EXTIENDEN DE OTROS
     Hemos aprendido qué son los types alias. Pues bien,

@@ -1,3 +1,5 @@
+import { expect, it } from "vitest";
+
 //--------- ⬇️ Modifica el código de abajo ⬇️ ------------//
 
 //--------- ⬆️ Modifica el código de arriba ⬆️ -----------//

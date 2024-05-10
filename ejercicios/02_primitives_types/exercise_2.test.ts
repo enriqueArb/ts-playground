@@ -1,3 +1,5 @@
+import { expect, it } from "vitest";
+
 let testValue: any = 42;
 let result: string;
 

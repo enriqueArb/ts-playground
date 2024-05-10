@@ -8,6 +8,8 @@
     5    
  */
 
+import { expect, it } from "vitest";
+
 let aNumber: number;
 
 //--------- ⬇️ Modifica el código de abajo ⬇️ ------------//

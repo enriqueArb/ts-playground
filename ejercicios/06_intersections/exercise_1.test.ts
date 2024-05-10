@@ -1,3 +1,5 @@
+import { expect, it } from "vitest";
+
 type BaseButton = {
   content: string,
   onClick: () => void,

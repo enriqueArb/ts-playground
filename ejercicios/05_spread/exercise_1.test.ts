@@ -1,3 +1,5 @@
+import { expect, it } from "vitest";
+
 // * Tricky one
 
 //--------- ⬇️ Modifica el código de abajo ⬇️ ------------//
